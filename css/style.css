@@ -1,0 +1,63 @@
+body {
+    background-color: #f1d5da; /* æµ…ç²‰è‰² */
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* é¡µé¢å†…å®¹å±…ä¸­ */
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* è®©å›¾ç‰‡å¤§å°é€‚ä¸­ */
+#mainImage {
+    width: 200px;
+    transition: all 0.3s ease;
+}
+
+/* æ–‡å­— */
+h1 {
+    font-size: 28px;
+    color: #68495b;
+}
+
+/* æŒ‰é’®æ ·å¼ */
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    transition: all 0.3s ease;
+}
+
+#yes {
+    background-color: #d4818e; /* ç²‰è‰² */
+    color: white;
+}
+
+#no {
+    background-color: #6784b1; /* è“è‰² */
+    color: white;
+    position: relative;
+}
+
+/* Yes å®Œå…¨å¡«æ»¡å±å¹• */
+.yes-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffdae0; /* ç²‰è‰² */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
