@@ -50,7 +50,7 @@ noButton.addEventListener("click", function() {
 yesButton.addEventListener("click", function() {
     document.body.innerHTML = `
         <div class="yes-screen">
-            <h1 class="yes-text"> 陈慧欣，生日快乐<br>祝你早安午安晚安 <br>祉猷并茂 顺遂无虞 事事胜意!!!( >᎑<)<br>很幸运能和你相识，希望你在新的一岁里<br>没有永远的梅雨季，只有久违的艳阳天！<br>还有要天天开心，不长痘痘</h1>
+            <h1 class="yes-text"> 陈慧欣，生日快乐<br>祝你早安午安晚安 <br>顺遂无虞 事事胜意!!!( >᎑<)<br>很幸运能和你相识，希望你在新的一岁里<br>没有永远的梅雨季，只有久违的艳阳天！<br>还有要天天开心，不长痘痘</h1>
             <img src="image/生日快乐.gif" alt="拥抱" class="yes-image">
         </div>
     `;
